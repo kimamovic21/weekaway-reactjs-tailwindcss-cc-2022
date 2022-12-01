@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/weekaway-reactjs-tailwindcss-cc/static/css/main.43727605.css",
-    "main.js": "/weekaway-reactjs-tailwindcss-cc/static/js/main.7778af01.js",
+    "main.css": "/weekaway-reactjs-tailwindcss-cc/static/css/main.5a07f240.css",
+    "main.js": "/weekaway-reactjs-tailwindcss-cc/static/js/main.566d2fa2.js",
     "index.html": "/weekaway-reactjs-tailwindcss-cc/index.html",
-    "main.43727605.css.map": "/weekaway-reactjs-tailwindcss-cc/static/css/main.43727605.css.map",
-    "main.7778af01.js.map": "/weekaway-reactjs-tailwindcss-cc/static/js/main.7778af01.js.map"
+    "main.5a07f240.css.map": "/weekaway-reactjs-tailwindcss-cc/static/css/main.5a07f240.css.map",
+    "main.566d2fa2.js.map": "/weekaway-reactjs-tailwindcss-cc/static/js/main.566d2fa2.js.map"
   },
   "entrypoints": [
-    "static/css/main.43727605.css",
-    "static/js/main.7778af01.js"
+    "static/css/main.5a07f240.css",
+    "static/js/main.566d2fa2.js"
   ]
 }
