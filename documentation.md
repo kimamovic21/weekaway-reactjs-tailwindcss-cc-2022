@@ -3,4 +3,14 @@
 3. brisemo nepotrebne fajlove koji nam nece trebati
 4. otvaramo i uredujemo index.css fajl
 5. otvaramo i uredujemo index.html fajl
-6.  
+6. kreiramo components folder
+7. kreiramo i uredujemo TopBar.jsx komponentu
+8. instaliramo paket react-icons
+9. importujemo TopBar.jsx komponentu u App.js fajlu
+10. 
+
+
+Github pages
+1. npm i gh-pages --save-dev
+2. package.json -> homepage, predeploy, deploy
+3. 
