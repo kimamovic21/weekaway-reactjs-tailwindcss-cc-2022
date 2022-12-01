@@ -1,0 +1,81 @@
+import React, {useState, useEffect} from 'react';
+import {FaBars, FaFacebookF, FaTwitter, FaGooglePlusG, FaInstagram} from 'react-icons/fa';
+import {BsChatSquareDots} from 'react-icons/bs';
+
+const Navbar = () => {
+
+  const [nav, setNav] = useState(false);
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
+  return (
+    <nav className='w-full min-h-[2rem] flex justify-between items-center absolute z-10 text-[#f5f5f5] bg-gray-700/80'>
+
+        <ul className='hidden sm:flex px-4'>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+                <a href="#deals">Deals</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        {/* Social icons */}
+        <div className='flex justify-between'>
+            <FaFacebookF  className='mx-4'/>
+            <FaTwitter className='mx-4' />
+            <FaGooglePlusG  className='mx-4'/>
+            <FaInstagram  className='mx-4'/>
+        </div>
+
+        {/* Hamburger menu */}
+        <div onClick={handleNav} className='sm:hidden z-10 p-2'>
+            <FaBars size={40} className='mr-2 p-1 cursor-pointer'/>
+        </div>
+
+        {/* Mobile menu */}
+        <div className={
+            nav ? 'overflow-y-hidden sm:hidden ease-in-out duration-500 absolute text-gray-100 left-0 top-0 w-full h-screen bg-[#333]/90 px-4 py-7 flex flex-col' 
+                : 'absolute top-0 h-screen left-[-100%] ease-in-out duration-500'}>
+            <ul className='h-full w-full text-center pt-15'>
+                <li className='text-2xl pt-20 py-10'>
+                    <a href="/">Home</a>
+                </li>
+                <li className='text-2xl py-10'>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li className='text-2xl py-10'>
+                    <a href="#deals">Deals</a>
+                </li>
+                <li className='text-2xl py-10'>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+  );
+};
+
+export default Navbar;
+
+
+
+
+// 1. stiliziramo nav roditelj element
+// 2. dodajemo i stiliziramo ul i li elemente
+// 3. dodajemo div element u kojem se nalaze ikonice za drustvene mreze
+// 4. dodajemo i uredujemo div element za humburger menu (humburger ikonicu)
+// 5. dodajemo i stiliziramo div element za mobile menu
+// 6. dodajemo useState hook
+// 7. dodajemo uslov za klasu u mobile menu div elementu
+// 8. kreiramo funkciju handleNav
+// 9. dodajemo onClick dodagadaj div elementu za humburger menu
