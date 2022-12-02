@@ -1,21 +1,20 @@
-import React, {useState, useEffect} from 'react';
-import {FaBars, FaFacebookF, FaTwitter, FaGooglePlusG, FaInstagram} from 'react-icons/fa';
-import {BsChatSquareDots} from 'react-icons/bs';
+import React, {useState} from 'react';
+import {FaBars,  FaTimes, FaFacebookF, FaTwitter, FaGooglePlusG, FaInstagram} from 'react-icons/fa';
 
 const Navbar = () => {
 
   const [nav, setNav] = useState(false);
 
-  const handleNav = () => {
-    setNav(!nav);
-  };
+  const handleNav = () => setNav(!nav);
+
+  const closeMobileMenu = () => setNav(false);
 
   return (
-    <nav className='w-full min-h-[2rem] flex justify-between items-center absolute z-10 text-[#f5f5f5] bg-gray-700/80'>
+    <nav className='w-full min-h-[2rem] flex justify-between items-center fixed top-0 z-10 text-[#f5f5f5] bg-gray-700/80'>
 
         <ul className='hidden sm:flex px-4'>
             <li>
-                <a href="/">Home</a>
+                <a href="#home">Home</a>
             </li>
             <li>
                 <a href="#gallery">Gallery</a>
@@ -38,7 +37,9 @@ const Navbar = () => {
 
         {/* Hamburger menu */}
         <div onClick={handleNav} className='sm:hidden z-10 p-2'>
-            <FaBars size={40} className='mr-2 p-1 cursor-pointer'/>
+            { nav ? (<FaTimes size={40} className='mr-2 p-1 cursor-pointer'/>) 
+                  : (<FaBars size={40} className='mr-2 p-1 cursor-pointer'/>)
+            }
         </div>
 
         {/* Mobile menu */}
@@ -47,16 +48,16 @@ const Navbar = () => {
                 : 'absolute top-0 h-screen left-[-100%] ease-in-out duration-500'}>
             <ul className='h-full w-full text-center pt-15'>
                 <li className='text-2xl pt-20 py-10'>
-                    <a href="/">Home</a>
+                    <a href="#home" onClick={closeMobileMenu}>Home</a>
                 </li>
                 <li className='text-2xl py-10'>
-                    <a href="#gallery">Gallery</a>
+                    <a href="#gallery" onClick={closeMobileMenu}>Gallery</a>
                 </li>
                 <li className='text-2xl py-10'>
-                    <a href="#deals">Deals</a>
+                    <a href="#deals" onClick={closeMobileMenu}>Deals</a>
                 </li>
                 <li className='text-2xl py-10'>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact" onClick={closeMobileMenu}>Contact</a>
                 </li>
             </ul>
         </div>
@@ -79,3 +80,4 @@ export default Navbar;
 // 7. dodajemo uslov za klasu u mobile menu div elementu
 // 8. kreiramo funkciju handleNav
 // 9. dodajemo onClick dodagadaj div elementu za humburger menu
+// 10. dodajemo onClick dogadaj div elementu za mobile menu

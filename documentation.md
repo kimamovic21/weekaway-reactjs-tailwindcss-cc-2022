@@ -11,7 +11,20 @@ Izrada projekta:
 9. importujemo TopBar.jsx komponentu u App.js fajl
 10. kreiramo i uredujemo Navbar.jsx komponentu
 11. importujemo Navbar.jsx komponentu u App.js fajl
-12. 
+12. kreiramo i uredujemo Hero.jsx komponentu
+13. importujemo Hero.jsx komponentu u App.js fajl
+14. kreiramo i uredujemo Activities.jsx komponentu
+15. kreiramo i uredujemo Activity.jsx komponentu koja ce sluziti kao props za Activities.jsx komponentu
+16. importujemo Activity.jsx komponente u Activities.jsx komponentu
+17. importujemo Activities.jsx komponentu u App.js fajl
+18. kreiramo i uredujemo Booking.jsx komponentu
+19. importujemo Booking.jsx komponentu u App.js fajl
+20. kreiramo i uredujemo ImageGalleries.jsx komponentu
+21. kreiramo i uredujemo ImageGallery.jsx komponentu
+22. ImageGallery.jsx komponentu importujemo u ImageGalleries.jsx komponentu
+23. ImageGalleries.jsx komponentu importujemo u App.js fajl
+24. kreiramo i uredujemo Contact.jsx komponentu
+25. kreiramo i uredujemo Footer.jsx komponentu
 
 
 
