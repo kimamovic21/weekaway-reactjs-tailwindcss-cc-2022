@@ -31,6 +31,8 @@ Izrada projekta:
 Github pages:
 
 1. npm i gh-pages --save-dev
-2. package.json -> homepage, predeploy, deploy
-3. git remote add origin https://github.com/kimamovic21/weekaway-reactjs-tailwindcss-cc.git
-3. npm run deploy
+2. package.json -> "homepage": "https://github.com/kimamovic21/weekaway-reactjs-tailwindcss-cc"
+3. package.json -> "predeploy": "npm run build"
+4. package.json -> "deploy": "gh-pages -d build"
+5. git remote add origin https://github.com/kimamovic21/weekaway-reactjs-tailwindcss-cc.git
+6. npm run deploy
