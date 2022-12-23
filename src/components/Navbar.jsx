@@ -14,13 +14,13 @@ const Navbar = () => {
 
         <ul className='hidden sm:flex px-4'>
             <li>
-                <a href="#home">Home</a>
-            </li>
-            <li>
-                <a href="#gallery">Gallery</a>
+                <a href="#topbar">Home</a>
             </li>
             <li>
                 <a href="#deals">Deals</a>
+            </li>
+            <li>
+                <a href="#gallery">Gallery</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -29,10 +29,10 @@ const Navbar = () => {
 
         {/* Social icons */}
         <div className='flex justify-between'>
-            <FaFacebookF  className='mx-4'/>
-            <FaTwitter className='mx-4' />
-            <FaGooglePlusG  className='mx-4'/>
-            <FaInstagram  className='mx-4'/>
+            <FaFacebookF className='mx-4 cursor-pointer hover:scale-150 duration-200' size={20}/>
+            <FaTwitter className='mx-4 cursor-pointer hover:scale-150 duration-200' size={20}/>
+            <FaGooglePlusG className='mx-4 cursor-pointer hover:scale-150 duration-200' size={20}/>
+            <FaInstagram className='mx-4 cursor-pointer hover:scale-150 duration-200' size={20}/>
         </div>
 
         {/* Hamburger menu */}
@@ -48,13 +48,13 @@ const Navbar = () => {
                 : 'absolute top-0 h-screen left-[-100%] ease-in-out duration-500'}>
             <ul className='h-full w-full text-center pt-15'>
                 <li className='text-2xl pt-20 py-10'>
-                    <a href="#home" onClick={closeMobileMenu}>Home</a>
-                </li>
-                <li className='text-2xl py-10'>
-                    <a href="#gallery" onClick={closeMobileMenu}>Gallery</a>
+                    <a href="#topbar" onClick={closeMobileMenu}>Home</a>
                 </li>
                 <li className='text-2xl py-10'>
                     <a href="#deals" onClick={closeMobileMenu}>Deals</a>
+                </li>
+                <li className='text-2xl py-10'>
+                    <a href="#gallery" onClick={closeMobileMenu}>Gallery</a>
                 </li>
                 <li className='text-2xl py-10'>
                     <a href="#contact" onClick={closeMobileMenu}>Contact</a>

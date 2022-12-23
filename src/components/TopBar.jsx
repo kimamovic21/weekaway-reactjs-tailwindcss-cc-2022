@@ -4,7 +4,7 @@ import {BsChatSquareDots} from 'react-icons/bs';
 
 const TopBar = () => {
   return (
-    <div className='flex justify-between items-center px-4 py-2 mt-14'>
+    <div id='topbar' className='flex flex-col sm:flex-row justify-between items-center px-4 py-2 mt-14 scroll-m-20'>
 
         <div className='flex items-center'>
             <BsChatSquareDots size={30} className='text-[var(--primary-dark)] mr-2' />
@@ -18,9 +18,9 @@ const TopBar = () => {
             </div>
             <div className='hidden md:flex items-center px-6'>
                 <AiFillPhone size={20} className='m-2 text-[var(--primary-dark)]' />
-                <p className=' text-sm text-gray-500'>387-61-234-567</p>
+                <p className='text-sm text-gray-500'>387-61-234-567</p>
             </div>
-            <button>
+            <button className='mt-2 sm:m-0 w-[300px] sm:w-[200px]'>
                 Get a free quote
             </button>
         </div>
