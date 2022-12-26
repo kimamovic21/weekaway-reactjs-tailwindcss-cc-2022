@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![weekaway-reactjs-tailwindcss-cc-2022](https://github.com/[kimamovic21]/[weekaway-reactjs-tailwindcss-cc]/blob/[master]/image.jpg?raw=true)
+![weekaway-reactjs-tailwindcss-cc-2022](weekaway.jpg)
 
 https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
