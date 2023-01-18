@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/weekaway-reactjs-tailwindcss-cc/static/css/main.1baac565.css",
-    "main.js": "/weekaway-reactjs-tailwindcss-cc/static/js/main.69bd44f1.js",
-    "static/media/gallery2.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/gallery2.8cce0f3683f400c5349e.jpg",
-    "static/media/gallery4.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/gallery4.1fa8eae10122c79b12c0.jpg",
-    "static/media/beach.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/beach.6d2d0f449607880fd019.jpg",
-    "static/media/excursions.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/excursions.5eb757dcd33802a1c254.jpg",
-    "static/media/gallery5.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/gallery5.135dd9c69e78d87a3d3c.jpg",
-    "static/media/gallery3.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/gallery3.22af0384caa50ccb556e.jpg",
-    "static/media/cruises.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/cruises.48ecf844f0ff2ae0fede.jpg",
-    "static/media/gallery1.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/gallery1.4cf9bc0de6b9d0bd0eb9.jpg",
-    "static/media/form.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/form.510c6599c16e58c6ed49.jpg",
-    "static/media/resorts.jpg": "/weekaway-reactjs-tailwindcss-cc/static/media/resorts.1e0a7a010bb3600c8c2e.jpg",
-    "index.html": "/weekaway-reactjs-tailwindcss-cc/index.html",
-    "main.1baac565.css.map": "/weekaway-reactjs-tailwindcss-cc/static/css/main.1baac565.css.map",
-    "main.69bd44f1.js.map": "/weekaway-reactjs-tailwindcss-cc/static/js/main.69bd44f1.js.map"
+    "main.css": "/weekaway-reactjs-tailwindcss-cc-2022/static/css/main.1baac565.css",
+    "main.js": "/weekaway-reactjs-tailwindcss-cc-2022/static/js/main.daa47596.js",
+    "static/media/gallery2.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/gallery2.8cce0f3683f400c5349e.jpg",
+    "static/media/gallery4.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/gallery4.1fa8eae10122c79b12c0.jpg",
+    "static/media/beach.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/beach.6d2d0f449607880fd019.jpg",
+    "static/media/excursions.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/excursions.5eb757dcd33802a1c254.jpg",
+    "static/media/gallery5.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/gallery5.135dd9c69e78d87a3d3c.jpg",
+    "static/media/gallery3.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/gallery3.22af0384caa50ccb556e.jpg",
+    "static/media/cruises.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/cruises.48ecf844f0ff2ae0fede.jpg",
+    "static/media/gallery1.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/gallery1.4cf9bc0de6b9d0bd0eb9.jpg",
+    "static/media/form.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/form.510c6599c16e58c6ed49.jpg",
+    "static/media/resorts.jpg": "/weekaway-reactjs-tailwindcss-cc-2022/static/media/resorts.1e0a7a010bb3600c8c2e.jpg",
+    "index.html": "/weekaway-reactjs-tailwindcss-cc-2022/index.html",
+    "main.1baac565.css.map": "/weekaway-reactjs-tailwindcss-cc-2022/static/css/main.1baac565.css.map",
+    "main.daa47596.js.map": "/weekaway-reactjs-tailwindcss-cc-2022/static/js/main.daa47596.js.map"
   },
   "entrypoints": [
     "static/css/main.1baac565.css",
-    "static/js/main.69bd44f1.js"
+    "static/js/main.daa47596.js"
   ]
 }
